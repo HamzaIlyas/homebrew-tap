@@ -1,25 +1,25 @@
 class Stillwright < Formula
   desc "State keeper (sw) for the Stillwright agent skills: goals, runs, inbox, dated notes, hash-pinned tools"
   homepage "https://github.com/HamzaIlyas/stillwright"
-  version "0.1.4"
+  version "0.1.5"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/HamzaIlyas/stillwright/releases/download/v0.1.4/stillwright-aarch64-apple-darwin.tar.xz"
-      sha256 "326655994073fbfcbb4063ea7e4351c9d5da8d638277ff5a6abcc1dbe02ecce4"
+      url "https://github.com/HamzaIlyas/stillwright/releases/download/v0.1.5/stillwright-aarch64-apple-darwin.tar.xz"
+      sha256 "b878ed7032a409e83dfdbaf8d7c465a2848c24f200d45ca7ab85dadd6d976b68"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/HamzaIlyas/stillwright/releases/download/v0.1.4/stillwright-x86_64-apple-darwin.tar.xz"
-      sha256 "2e503dae08064d48d3c0960b25043248657b8b6f4669c5c05a2307e498026426"
+      url "https://github.com/HamzaIlyas/stillwright/releases/download/v0.1.5/stillwright-x86_64-apple-darwin.tar.xz"
+      sha256 "821b51f2227084940066d69c1aa6542c92aa229e8585389c93e7a88cedb7e1f6"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/HamzaIlyas/stillwright/releases/download/v0.1.4/stillwright-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "b7ad8681a3df8f0a3c5cc24f3d8f1d0262aa8e705f02141382f1efe90a5c6d68"
+      url "https://github.com/HamzaIlyas/stillwright/releases/download/v0.1.5/stillwright-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "a2449fc5f50049b6931f68068833e87dfa4f8dd168facbb4e4973812d61f9c6a"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/HamzaIlyas/stillwright/releases/download/v0.1.4/stillwright-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "7c671f22cf393dd6b08abe4a22a90a65e1c246b3b25d2741b99164f21a10466c"
+      url "https://github.com/HamzaIlyas/stillwright/releases/download/v0.1.5/stillwright-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "d12a5336d20d284a1f0401e53ee6bbeb777eb7550097d268af7d40b882f59db3"
     end
   end
   license "MIT"
