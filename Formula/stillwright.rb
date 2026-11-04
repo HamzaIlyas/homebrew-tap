@@ -1,25 +1,25 @@
 class Stillwright < Formula
   desc "State keeper (sw) for the Stillwright agent skills: goals, runs, inbox, dated notes, hash-pinned tools"
   homepage "https://github.com/HamzaIlyas/stillwright"
-  version "0.2.0"
+  version "0.2.1"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/HamzaIlyas/stillwright/releases/download/v0.2.0/stillwright-aarch64-apple-darwin.tar.xz"
-      sha256 "da142094c351ebe35802223e36ce00018b0224a8efd9d73689ca01c3e98bea51"
+      url "https://github.com/HamzaIlyas/stillwright/releases/download/v0.2.1/stillwright-aarch64-apple-darwin.tar.xz"
+      sha256 "55e0505a123d1f1b20b748c515b7d34db5263a57e2ec54bc2f15dc381fb1d1ca"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/HamzaIlyas/stillwright/releases/download/v0.2.0/stillwright-x86_64-apple-darwin.tar.xz"
-      sha256 "d99b18aa51e1ee90d8d5146b60d331ed56e8107b835a94ea6cd65c528dd40ab7"
+      url "https://github.com/HamzaIlyas/stillwright/releases/download/v0.2.1/stillwright-x86_64-apple-darwin.tar.xz"
+      sha256 "a8bef67a64cacf60f4b977519590760859871c80aac860c8e1638c4cc6d0f68c"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/HamzaIlyas/stillwright/releases/download/v0.2.0/stillwright-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "c73af7b8e1cf91ccfc3c866668ef1f26bd642300968afd34829bc8a4767603b1"
+      url "https://github.com/HamzaIlyas/stillwright/releases/download/v0.2.1/stillwright-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "91e6db85ad263ebb4f4b33109b016a6fa26ec9b9afab0e384399285a2b40f991"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/HamzaIlyas/stillwright/releases/download/v0.2.0/stillwright-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "93a2a32e9c9f5aa24b25dec5f1888d017fbfcd8a4fdb506d3c9a634b21b648db"
+      url "https://github.com/HamzaIlyas/stillwright/releases/download/v0.2.1/stillwright-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "a57d0e8d86feb4b75316f86ca834eda1f22fb84000b92cc3cf38cf2c12126cec"
     end
   end
   license "MIT"
