@@ -1,25 +1,25 @@
 class Stillwright < Formula
   desc "State keeper (sw) for the Stillwright agent skills: goals, runs, inbox, dated notes, hash-pinned tools"
   homepage "https://github.com/HamzaIlyas/stillwright"
-  version "0.2.1"
+  version "0.2.2"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/HamzaIlyas/stillwright/releases/download/v0.2.1/stillwright-aarch64-apple-darwin.tar.xz"
-      sha256 "55e0505a123d1f1b20b748c515b7d34db5263a57e2ec54bc2f15dc381fb1d1ca"
+      url "https://github.com/HamzaIlyas/stillwright/releases/download/v0.2.2/stillwright-aarch64-apple-darwin.tar.xz"
+      sha256 "674a26c99e5649f6c194f7b0d2ca83ea8f163629029f5a4e7f2c0273909ba6c8"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/HamzaIlyas/stillwright/releases/download/v0.2.1/stillwright-x86_64-apple-darwin.tar.xz"
-      sha256 "a8bef67a64cacf60f4b977519590760859871c80aac860c8e1638c4cc6d0f68c"
+      url "https://github.com/HamzaIlyas/stillwright/releases/download/v0.2.2/stillwright-x86_64-apple-darwin.tar.xz"
+      sha256 "4d09178e37ccec9e239e9126ab8c5a1230797f81fcb2b60fa1b767697910f3a7"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/HamzaIlyas/stillwright/releases/download/v0.2.1/stillwright-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "91e6db85ad263ebb4f4b33109b016a6fa26ec9b9afab0e384399285a2b40f991"
+      url "https://github.com/HamzaIlyas/stillwright/releases/download/v0.2.2/stillwright-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "1206c50096840cc3bab08f0876f0c9729fd466df6f78f38e1cd7d01a9e881b95"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/HamzaIlyas/stillwright/releases/download/v0.2.1/stillwright-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "a57d0e8d86feb4b75316f86ca834eda1f22fb84000b92cc3cf38cf2c12126cec"
+      url "https://github.com/HamzaIlyas/stillwright/releases/download/v0.2.2/stillwright-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "16e3961a5cfcd89f62c22848c8761f5c6964969aa8c27c3ab9110de93a1b1b04"
     end
   end
   license "MIT"
